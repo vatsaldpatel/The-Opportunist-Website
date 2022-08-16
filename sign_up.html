@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />   -->
+  	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="sign_up.css">
+    <link rel="icon" href="/Image_Icons/favicon.ico">
+    <script src="sign_up.js"></script>
+
+
+
+
+  </head>
+  <body>
+    <div class="header">
+  		<div class="logo_title">
+  			<a href="home.html"><img src="Image_Icons/white_icon.png"></a><h3>THE OPPORTUNIST</h3>
+      </div>
+      
+      <!-- <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button> -->
+
+
+  		<div class="navbar" id="navbar_id">
+  			<ul>
+  				<li class="navitem">
+  					<a href="home.html">HOME</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="home.html#findbar">FIND A JOB</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="post_job.html">POST A JOB</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="home.html#abt">ABOUT US</a>
+  				</li>
+  			</ul>
+  		</div>
+  		<div class="login" id="login_id">
+  			<a href="sign_up.html">SIGN UP</a>
+  			<a href="sign_in.html">SIGN IN</a>
+
+  		</div>
+      </div>
+      <div class="sup">
+          <div class="q">
+            <h3>"Out of Clutter, Find Simplicity.<br / >
+            From Discord, Find Harmony.<br />
+          In the middle of Difficulty<br  />
+        Lies Opportunity."<br />
+      </h3>
+      <h5>-Albert Einstein</h5>
+          </div>
+          <div>
+
+
+          <form  action="sign_up.php" method="post">
+              <div class="form" id="form_id">
+
+              <label for="name">Name:</label><input type="text" name="name" placeholder="Enter Name"><br />
+              <label for="email">Email:</label><input type="text" name="email" placeholder="Enter Email"><br>
+              <label for="password">Password:</label><input type="password" name="pass" placeholder="Enter Password" id="c1"><br>
+              <label for="cnf_password">Confirm Password:</label><input type="password" name="cnf_pass" id="c2" placeholder="Confirm Password"><br />
+              <label for="preferref_job">Preferred Job:</label><input type="text" name="pre_j" placeholder="Preferred Designation"><br />
+              <label for="p_city">City:</label><input type="text" name="city" placeholder="Enter City"><br />
+              <!-- <label for="skills">Enter Skills:</label><div class="grid_class"> -->
+              <label for="skills">Enter Skills:</label><button type="button" id="btn1" onclick="btn()">+</button>
+              <!-- <div class="grid_class">
+
+              <button type="button" id="btn1" onclick="btn()">+</button>
+
+            </div> -->
+          </div>
+
+          <div class="sub" >
+            <input type="text" class = "temp" name="temp1"></br>
+            <button type="button" id = "btn4" onclick="add_php()">Sign Up</button>
+            <input type="submit" value="Sign Up" class="btn3">
+          </div>
+        </form>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+  
+  </body>
+
+</html>

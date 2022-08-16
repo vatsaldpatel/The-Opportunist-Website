@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto Mono';
+
+}
+body{
+	background-color: #ffa62b;
+
+}
+
+.logo_title{
+	display: flex;
+}
+
+.logo_title h3{
+	font-size: 23px;
+	margin-top: 17px;
+	font-weight: bolder;
+}
+
+/*For Logo Image*/
+.logo_title img{
+	width:50px;
+	height:50px;
+	padding: 10px;
+	color:white;
+	filter:invert(100%);
+}
+
+/*For Header bar*/
+.header{
+
+	display: flex;
+	flex-direction:row;
+	flex-flow: wrap;
+	justify-content: space-between;
+	height: 65px;
+
+	/*background-color: rgb(0,0,0);*/
+	background-color:white;
+
+	color:black;
+}
+
+.navbar{
+	justify-content: center;
+}
+/*For Navigation Bar*/
+.navbar ul{
+	display: flex;
+	/*justify-content: center;*/
+
+
+}
+
+.navbar ul li{
+	list-style: none;
+    font-size: 20px;
+    justify-content: center;
+    /*text-align: center;*/
+    padding: 20px 5px;
+}
+
+.navbar ul li a{
+	border :2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+	background-color: black;
+	color:white;
+
+}
+
+/* .hamburger{
+    display: none;
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    height: 65px;
+    padding-right: 20px;
+}
+
+.hamburger:focus{
+    outline: none;
+} */
+
+.login{
+
+	padding: 20px;
+	font-size: 20px;
+	align-items:flex-end;
+	margin-right: 20px;
+}
+.login a{
+	text-decoration: none;
+	border :2px solid black;
+	border-radius: 10px;
+	padding:10px;
+	color: black;
+}
+
+.login a:hover{
+	background-color: black;
+	color:white;
+}
+
+.sup{
+  display: flex;
+	/* background-color: #ff6700; */
+	height: 100%;
+}
+.form{
+  padding-top: 100px;
+  padding-left: 30px;
+
+}
+.form label{
+	display: inline-block;
+	width: 250px;
+	padding:10px 0px;
+	/* border:2px solid black; */
+
+}
+.form input{
+  width: 250px;
+  height:30px;
+}
+
+.temp{
+	display: none;
+	height: 1px;
+	width:1px;
+}
+
+
+
+.q{
+padding-top: 250px;
+text-align: center;
+  width:50%;
+}
+.q h5{
+	font-style: italic;
+}
+
+.input_skill:focus{
+	background-color: white;
+}
+.grid_class{
+	display: inline-block;
+	/* border: 2px solid black; */
+	width:250px;
+}
+
+.btn3{
+	/* display: inline-block; */
+	/* width:100px; */
+	/* height: 100px; */
+	display: none;
+}
+
+.par_div{
+	/* display: inline-block; */
+	
+	padding-left: 250px;
+}
+.skill_div{
+	display: inline-block;
+}
+.sub{
+	padding-left:200px;
+	padding-top: 70px;
+
+}
+.sub button{
+	width: 150px;
+	height:35px;
+	border-radius: 10px;
+	border-color: black;
+}
+
+
+.sub button:hover{
+	/* background-color: ; */
+	background-color: #ffe0cc;
+	/* border: 2px dashed black; */
+}
+
+
+/* @media screen and (max-width: 1200px){
+    .login{
+        display: none;
+        padding: 5px;
+        width:100%;
+    }
+    .login.show{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navbar{
+        display: none;
+        width: 100%;
+    }
+    .navbar.show{
+        display: flex;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+} */

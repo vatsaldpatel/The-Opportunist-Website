@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>P-RHO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />  
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="sign_in.css">
+	<link rel="stylesheet" href="home_css.css">
+	
+	<link rel="icon" href="Image_Icons/favicon.ico">
+
+</head>
+<body>
+	<div class="header">
+		<div class="logo_title">
+			<a href="home.html"><img src="Image_Icons/white_icon.png"></a><h3>THE OPPORTUNIST</h3>
+		</div>
+
+		<button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+		<div class="navbar" id="navbar_id">
+			<ul>
+				<li class="navitem">
+					<a href="home.html">HOME</a>
+				</li>
+				<li class="navitem">
+					<a href="#findbar">FIND A JOB</a>
+				</li>
+				<li class="navitem">
+					<a href="post_job.html">POST A JOB</a>
+				</li>
+				<li class="navitem">
+					<a href="#abt">ABOUT US</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="login" id="login_id">
+			<a href="sign_up.html">SIGN UP</a>
+			<a href="sign_in.html">SIGN IN</a>
+		</div>
+
+
+	</div>
+	<div class="searchbar" id="findbar">
+		<div class="quote">
+			<p>
+				"TODAY IS AN
+			</p>
+			<p>
+				OPPORTUNITY TO
+			</p>
+			<p>
+				GET BETTER
+			</p>
+			<P>
+				DON'T WASTE IT."
+			</P>
+
+		</div>
+		
+		<div class="searchbar_2">
+		<form action="job.php" method="post" style="display: flex;">
+			<input type="text" style="font-size: 15px;" id="home_ip" name="job">
+		<!-- <label for="city">Select City</label> -->
+		<select name="selectedCity" id="city" class="classic" id="home_s">
+			<option value="sc">Select City</option>
+ 			<option value="Mumbai">Mumbai</option>
+			<option value="Bengaluru">Bengaluru</option>
+			<option value="Ahmedabad">Ahmedabad</option>
+			<option value="Surat">Surat</option>
+			<option value="Pune">Pune</option>
+			<option value="Hydrabad">Hydrabad</option>
+			<option value="Noida">Noida</option>
+			<option value="Jaipur">Jaipur</option>
+			<option value="Cochin">Cochin</option>
+			
+		</select>
+		<!-- <button type="button" class="searchbtn" onclick="home()">Find</button> -->
+		<input type="submit" value="Find" class="searchbtn" >
+	</form>
+	</div>
+
+	</div>
+	<div class="review">
+		<h1>Reviews</h1>
+	</div>
+	<div class="slideshow-container" id="rev">
+
+	<div class="mySlides">
+		<div class="rv_img"><img src="Image_Icons/jay.jpg"></div>
+	  	<q>the_opportunist is a great website to use in your job search and much preferred over more impersonal sites such as Monster or Careerbuilder, which receive more applications - many unqualified - than they can handle. This is because your own the_opportunist account starts with people you know and who know you. They have worked with you and can back your abilities. They can even refer you to positions that may not yet be public knowledge, which is needed in these competitive times. </q>
+	  	<p class="author">- Jay Patel</p>
+	</div>
+
+	<div class="mySlides">
+		<div class="rv_img">
+		<img src="Image_Icons/kevin.jpg">
+		</div>
+
+	  	<q>I highly recommend everyone to check out the_opportunist especially if you're searching for employment. Even people that are already employed can benefit from this website and what all it has to offer. It is very similar to a social network but one that is focused around jobs. It is very easy to connect with others individually and as a company as well. With the_opportunist you can find employment by searching the available jobs posted and applying to them.</q>
+	  	<p class="author">- Kevin Panchal</p>
+	</div>
+
+	<div class="mySlides">
+		<div class="rv_img"><img src="Image_Icons/dev.jpg"></div>
+	 	 <q>the_opportunist is more a Recruiting Site than a Job Search Site. By that I mean that it is more a place for Employers to find good prospects, rather than for a Job Seeker to find a job (although they certainly do have jobs posted on the_opportunist. the_opportunist tends to have more upper level jobs than many of the other job sites. It is a site commonly used by recruiters to find candidates to place with specific companies. It is also a fantastic place to get Career Advice.</q>
+	  	<p class="author">- Dev Tailor</p>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a>
+
+	</div>
+
+	<div class="dot-container">
+	  <span class="dot" onclick="currentSlide(1)"></span>
+	  <span class="dot" onclick="currentSlide(2)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<div class="about">
+		<div class="about1">
+			<h1>Our Story</h1>
+		</div>
+		<div class="about2">
+			<h3>The Opputunist</h3>
+		</div>
+		<div class="about4">
+			<p>"We Provide Opportunity."</p>
+
+		</div>
+		<div class="about3" id="abt">
+			<p>We are transparent. We are open and honest. We share information - the good and the bad - so we can continuously learn, collaborate and make the right decisions. See more about our commitment to transparency and what we've shared with the world from inside Glassdoor.We are innovative. We actively pursue new and different ways to further Glassdoor's mission. We forge our own path by challenging the status quo.
+
+				We are good people. We work together with integrity, respect and compassion for one another. We have fun together. We are inclusive, fair and humble while remaining confident. We do the right thing, period.
+				
+				We have grit. We are resilient, resourceful and scrappy. We see challenges as opportunities. With passion and courage, we come together to get the job done.</p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer1">
+			<img src="Image_Icons/white_icon.png">
+			<h1>THE OPPOTUNIST</h1>
+			<p>"We Provide Opportunity"</p>
+		</div>
+		<div class="footer2">
+			<ul>
+				<a href="home.html" style="color:white;text-decoration:none;"><li>Home</li></a>
+				<li>About</li>
+				<li>Find</li>
+				<li>Hire</li>
+				<li>Sign In</li>
+			</ul>
+		</div>
+		<div class="footer3">
+			<h4>Contact Us</h4>
+			<p>Email : <a href="mailto:theopportunist@gmail.com">theopportunist@gmail.com</a></p>
+			<p>Phone : 77779 77779</p>
+
+		</div>
+	</div>
+	<div class="foot_line">
+		<div><a href="twitter.com"><img src="Image_Icons/twitter.png"></a><a href="googleplus.com"><img src="Image_Icons/google-plus.png"></a><a href="www.instagram.com"><img src="Image_Icons/instagram.png"></a><a href="linkedin.com"><img src="Image_Icons/linkedin.png"></a></div>
+		<div><img src="Image_Icons/copyright.png"><p>The Opportunist</p></div>
+	</div>
+
+<script src="job_home.js"></script>
+<script src="sign_in.js"></script>
+<script src="home.js"></script>
+</body>
+<!-- <script type="text/javascript" src="home.js"></script> -->
+</html>

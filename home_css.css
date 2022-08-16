@@ -1,0 +1,470 @@
+/*CSS Reset*/
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto Mono';
+
+}
+
+.logo_title{
+	display: flex;
+}
+.logo_title h3{
+	font-size: 23px;
+	margin-top: 17px;
+	font-weight: bolder;
+}
+
+/*For Logo Image*/
+.logo_title img{
+	width:70px;
+	height:70px;
+	padding: 10px;
+	color:white;
+	filter:invert(100%);
+}
+
+/*For Header bar*/
+.header{
+
+	display: flex;
+	flex-direction:row;
+	flex-flow: wrap;
+	justify-content: space-between;
+	height: 100%;
+
+	/*background-color: rgb(0,0,0);*/
+	background-color:white;
+
+	color:black;
+}
+
+.navbar{
+	justify-content: center;
+}
+/*For Navigation Bar*/
+.navbar ul{
+	display: flex;
+	/*justify-content: center;*/
+
+
+}
+
+.navbar ul li{
+	list-style: none;
+    font-size: 20px;
+    justify-content: center;
+    /*text-align: center;*/
+    padding: 20px 5px;
+}
+
+.navbar ul li a{
+	border :2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+	background-color: black;
+	color:white;
+
+}
+
+.hamburger{
+    display: none;
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    height: 65px;
+    padding-right: 20px;
+}
+
+.hamburger:focus{
+    outline: none;
+}
+
+.login{
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	padding: 20px;
+	font-size: 20px;
+	align-items:flex-end;
+	margin-right: 20px;
+}
+.login a{
+	text-decoration: none;
+	border :2px solid black;
+	border-radius: 10px;
+	padding:10px;
+	color: black;
+}
+
+.login a:hover{
+	background-color: black;
+	color:white;
+}
+.quote{
+	padding-top: 150px;
+	text-align: center;
+}
+
+.quote p{
+	padding: 5px;
+	font-size: 35px;
+	color:white;
+	font-weight: bolder;
+
+}
+
+.searchbar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	
+	height: 696px;
+	margin: auto;
+	/* background-image: url("/home/kp/Desktop/Web_Tech/Image_Icons/estee-janssens-zEqkUMiMxMI-unsplash.jpg"); */
+	/* background-color: rgb(75,171,178); */
+	background-color: rgb(55,108,118);
+	/* background-repeat: no-repeat; */
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	/* z-index: -1; */
+	/* opacity: 2; */
+}
+
+.searchbar_2{
+	padding-top: 50px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+	/* border: 2px solid red; */
+}
+
+
+
+
+.searchbar label{
+	border:2px;
+}
+
+#home_ip{
+	/*margin-top: 100px;
+	margin-left: 450px;*/
+	height: 50px;
+	width: 250px;
+	border:2px solid black;
+	border-radius: 10px;
+
+
+}
+
+
+.searchbtn{
+	height: 50px;
+	width: 150px;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 10px;
+	color:black;
+
+}
+.searchbtn:hover{
+	background-color: black;
+	color:white;
+	
+}
+
+#city{
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 10px;
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+	text-overflow: '';
+}
+
+
+.searchbar {
+	padding: 0px;
+}
+
+
+.review h1{
+
+	color:white;
+	font-weight: bold;
+	padding: 5px;
+	/*margin-top: 7px;*/
+	/*margin-bottom: 7px;*/
+	font-size: 35px;
+}
+
+.review{
+
+	text-align: center;
+	/* background: linear-gradient(to right, #000000 0%, #996633 100%); */
+	background-color: rgb(58,61,69);
+}
+
+.rv_img{
+	align-items: center;
+
+}
+
+.rv_img img{
+	height: 250px;
+	width:250px;
+	padding-bottom: 10px;
+}
+
+.about1{
+	text-align: center;
+	background-color: rgb(34,40,49);
+}
+
+.about1 h1{
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	color:white;
+
+}
+.about2{
+	background-color: #b4bdcb;
+}
+
+.about3{
+	background-color: #b4bdcb;
+}
+
+.about4{
+	background-color: #b4bdcb;
+}
+
+
+
+.about2 h3{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.about4 p{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.about3 p{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+.footer{
+	display: grid;
+	padding-top: 45px;
+	padding-bottom: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #0a0c0f;
+	color:white;
+}
+.footer1{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.footer1 img{
+	height: 100px;
+	width:100px;
+
+}
+.footer2{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer ul li{
+	font-size: 16px;
+	padding: 3px;
+}
+
+.footer3{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+.footer3 p{
+	padding: 5px;
+}
+
+.foot_line{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: #000000;
+	color:white;
+}
+.foot_line img{
+	height: 25px;
+	width:30px;
+	padding-right: 5px;
+	padding-left: 5px;
+	filter: invert(100%);
+
+}
+
+.foot_line div{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 40px;
+  text-align: center;
+	/* background:linear-gradient(to top left, #ccffcc 25%, #ffffff 100%); */
+	background-color: #babdc5;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #babdc5;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+
+
+@media screen and (max-width: 1200px){
+    .login{
+		display: none;
+		padding: 5px;
+		width:100%;
+    }
+    .login.show{
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.navbar{
+		display: none;
+		width: 100%;
+    }
+    .navbar.show{
+		display: flex;
+	}
+	
+    .hamburger{
+        display: block;
+	}
+	.mySlides q{
+		font-size: 13px;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	form{
+		flex-direction: column;
+	}
+	.searchbtn{
+		align-self: center;
+	}
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />   -->
+  	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="post_job.css">
+    <link rel="icon" href="/Image_Icons/favicon.ico">
+    <script src="post_job.js"></script>
+
+
+
+
+  </head>
+  <body>
+    <div class="header">
+  		<div class="logo_title">
+  			<a href="home.html"><img src="Image_Icons/white_icon.png"></a><h3>THE OPPORTUNIST</h3>
+      </div>
+      
+      <!-- <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button> -->
+
+
+  		<div class="navbar">
+  			<ul>
+  				<li class="navitem">
+  					<a href="home.html">HOME</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="home.html#findbar">FIND A JOB</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="post_job.html">POST A JOB</a>
+  				</li>
+  				<li class="navitem">
+  					<a href="home.html#abt">ABOUT US</a>
+  				</li>
+  			</ul>
+  		</div>
+  		<div class="login" id="login_id">
+  			<a href="sign_up.html">SIGN UP</a>
+  			<a href="sign_in.html">SIGN IN</a>
+
+  		</div>
+      </div>
+      <div class="sup">
+          <div class="q">
+            <h2>"If Opportunity<br / >
+            Doesn't<br />
+          Knock,<br  />
+        Build a door."<br />
+      </h2>
+      <h5>Milton Berley</h5>
+          </div>
+          <div>
+
+
+          <form  action="post_job.php" method="post">
+              <div class="form" id="form_id">
+
+              <label for="name">Company Name:</label><input type="text" name="name" placeholder="Enter Name"><br />
+              <label for="job_designation">Job Designation:</label><input type="text" name="job_designation" placeholder="Enter Job Designation"><br>
+              <label for="p_city">City:</label><input type="text" name="city" placeholder="Enter City"><br />
+              <label for="type">Company Type:</label><input type="text" name="type" placeholder="Enter Company Type"><br />
+              <label for="sector">Company's Sector:</label><input type="text" name="sector" placeholder="Enter Company Sector"><br />
+              <label for="size">Company's Size:</label><input type="text" name="size" placeholder="Enter Company Size"><br />
+              <!-- <label for="rating">Company's RATING:</label><input type="text" name="rating" placeholder="Enter Company Rating(Out of 5)"><br /> -->
+              <label for="website">Company's Website:</label><input type="text" name="website" placeholder="Enter Company Website"><br />
+              <label for="role">Role:</label><textarea type="text" name="role" placeholder="Enter Role"></textarea><br>
+              <label for="responsibility">Responsibility:</label><textarea type="text" name="responsibility" placeholder="Responsibility"></textarea><br />
+              <label for="requirement">Requirements:</label><textarea type="text" name="requirement" placeholder="Enter Requirements"></textarea><br />
+              <label for="about">About:</label><textarea type="text" name="about" placeholder="Enter About"></textarea><br />
+              <!-- <label for="skills">Enter Skills:</label><div class="grid_class"> -->
+              <label for="skills">Enter Skills:</label><button type="button" id="btn1" onclick="btn()">+</button>
+              <!-- <div class="grid_class">
+
+              <button type="button" id="btn1" onclick="btn()">+</button>
+
+            </div> -->
+          </div>
+
+          <div class="sub" >
+            <input type="text" class = "temp" name="temp1"></br>
+            <button type="button" id = "btn4" onclick="add_php()">Post</button>
+            <input type="submit" value="Sign Up" class="btn3">
+          </div>
+        </form>
+
+
+
+
+        </div>
+    </div>
+  
+  </body>
+
+</html>
